@@ -1,0 +1,44 @@
+.hero {
+    background: url(https://media.giphy.com/media/W5UoBN0YMdT1QP8Yfr/giphy.gif) center / cover;
+    font-family: "Sunshiney", "Fondamento";
+    background-color: blue;
+    color: rgb(2, 2, 2);
+    font-size: 2.5rem;
+}
+
+.header1 {
+   margin: 20px;
+    background-color: lightyellow;
+    color:#3273dc;
+    size: 10px;
+    align-self: center;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 10px;
+    height: 200px;
+    
+}
+
+
+
+.inputArea {
+    width: 50%;
+    align-self: center;
+    margin-left: 25%;
+}
+
+.bottomtext {
+    text-align: center;
+    color: yellow;
+}
+
+.toptext {
+    text-align: center;
+    color: yellow;
+}
+
+.button {
+    align-self: center;
+    text-align: center;
+}

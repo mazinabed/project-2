@@ -1,0 +1,15 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+.card {    
+  top: 35px !important;
+  font-family: 'Satisfy', cursive;
+  background-color: peachpuff;
+  border-radius: 25px;
+  border: 3px solid gray;
+  padding: 20px; 
+  opacity: 0.9;
+  margin-bottom: 1px;
+        margin-top: 100px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ask The Scientific </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Fondamento|Sunshiney&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./stylesheets/mainStyle.css">  
+</head>
+
+<body>
+  <section class="hero is-large is-widescreen">
+	        <nav>
+			        <div class="header1">
+					<a class="navbar-brand" href="/api/logout">
+						Logout
+					 </a>
+					 <p class="navbar-brand"><a href="weather.html">Weather</a></p>
+					 <h1>Welcome to Scientific Search</h1>   
+  
+					 </div>
+					 
+		</nav>
+	</br>
+        <div class="columns">
+	        <div class="column is-one-quarter">
+	         <div class="container">
+			    <h4 style="color: yellow">Question History</h4>
+			    <div class="box" style="width: 100%">
+				<div class="list is-hoverable has-backgroundlight" id="lists"></ul>
+			  </div>
+		
+	         </div>
+			</div>
+		</br>
+			<p style="text-align: center;">
+				<button class="button is-rounded is-danger" id="deleteAll">Delete History</button>
+			</p>
+          </div>
+	
+ <div class="container" style="padding-top: 35px; padding-right: 25px;">
+		<div class="container" style="text-align: center;">
+			<h2 style="color: yellow ">Hello <span class="member-name"></span>, I am the all knowing Scientific!</h2>
+			<button class="button is-rounded is-info" id="start-record-btn" title="Speak to the Scientific!">Speak to the Scientific! (Chrome only)</button>
+		</div>
+	  <form class="search">
+		<section class="inputArea">
+			<div class="field">
+			  	<div class="control">
+			    	<textarea class="textarea" placeholder="Ask me any technical question and I shall use my vast knowledge to answer it!" id="question"></textarea>
+			  	</div>
+			</div>
+		</section>
+		<br>
+			  <p style="text-align: center;">
+				<button class="button is-rounded is-success" id="submit">Ask the Scientific!</button>
+			  </p>
+		  </form>
+		  
+	  </div>
+	</div>
+             <div class="container has-text-warning">
+	        <h4 id="answer" style="text-align: center;opacity: 0.9; background-color: lightyellow; font-size: 30px; color: #3273dc" class="box">The answer is here!</h4>
+             </div>
+            <br>
+              <br>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/searches.js"></script>
+<script src="/js/speech.js"></script>
+</body>
+</html>

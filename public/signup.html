@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sign Up</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fondamento|Sunshiney&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/mainStyle.css">        
+</head>
+
+<body>
+  <section class="hero is-fullheight">
+    <nav>
+      <div class="header1">
+        <h1>Welcome to Scientific Search</h1> 
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h1 class="toptext">Create An Account</h1>
+        
+          <form class="signup has-text-centered">
+            <div class="form-group">
+              <label for="email" style="color: yellow" >Email Address:</label>
+              <input class="input" type="text" id="email-input" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="username" style="color: yellow" >Username:</label>
+                <input class="input" type="text" id="username-input" placeholder="Enter your username">
+              </div>
+
+            <div class="form-group">
+              <label for="password" style="color: yellow" >Password:</label>
+              <input class="input" type="password" id="password-input" placeholder="Choose a password">
+            </div>
+
+            <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+              <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+              <span class="sr-only">Error:</span> <span class="msg"></span>
+            </div>
+
+            <button class="button is-rounded is-warning">Sign Up</button> 
+        </form>
+        <br />
+        <p class="bottomtext">Or log in <a href="login.html">here</a></p>
+      </div>
+    </div>
+  </div>
+
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/signup.js"></script>
+</body>
+</html>

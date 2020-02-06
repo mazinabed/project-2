@@ -1,0 +1,153 @@
+.jumbotron{
+    background-image: url(/img/bg.png);
+    background-position: left;
+ background-size: 100px;
+  background-repeat: no-repeat;
+  margin: 20px;
+  background-color: lightyellow !important;
+  color:#3273dc !important;
+  size: 20px;
+  align-self: center;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 25px;
+  padding: 10px;
+  height: 150px;
+}
+
+
+
+.weather{
+    color: #4aa1f3 !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#header{
+    color: white;
+    
+}
+#search{
+    color: white;
+    font-size: 18px;
+}
+
+
+ul#list_item{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.city{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+
+
+#errorCity{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#showWeather{
+    width: 30%;
+    margin: auto;
+    background-color: #4aa1f3;
+    color: white;
+    border-radius: 10px;
+}
+
+
+th{
+    background-color: lightyellow !important;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4aa1f3 !important;
+    text-align: center;
+}
+
+td{
+    background: #FAFAFA;
+    text-align: center;
+    font-size: 18px;
+    color:black;
+}
+
+
+.col-lg-9 {
+    border: 1px  ;
+    height: 400px;
+}
+.col-lg-3{
+    height: 800px;
+}
+
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(/img/bg.jpg);
+    padding: 20px;
+    width: 90%;
+    height: 900px;
+    box-shadow: 5px 5px 5px grey;
+    background: url(https://media.giphy.com/media/W5UoBN0YMdT1QP8Yfr/giphy.gif) center / cover;
+}
+.body{
+    background: url(https://media.giphy.com/media/W5UoBN0YMdT1QP8Yfr/giphy.gif) center / cover;
+}
+
+
+
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    height: 45px;
+    border-radius: 5px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+
+
+
+
+
