@@ -50,7 +50,7 @@ var cities = [];
     return  '<h4 style="font-weight:bold; font-size:18px; padding-top:10px;" class="text-center">Current Weather for '+data.name+', '+data.sys.country+'</h4>'+
             "<h4 style='padding-left:10px;'>Date: "+result+"</h4>"+
             "<h4 style='padding-left:10px;'>Weather: "+data.weather[0].main+"</h4>"+
-            "<h4 style='padding-left:10px;'>Description:<img src='http://openweathermap.org/img/w/"+data.weather[0].icon+".png'> "+data.weather[0].description+"</h4>"+
+            "<h4 style='padding-left:10px;'>Description:<img src='https://openweathermap.org/img/w/"+data.weather[0].icon+".png'> "+data.weather[0].description+"</h4>"+
             "<h4 style='padding-left:10px;'>Temperature: "+data.main.temp+" &deg;F</h4>"+
             "<h4 style='padding-left:10px;'>Humidity: "+data.main.humidity+"%</h4>"+
             "<h4 style='padding-left:10px;'>Min Temperature: "+data.main.temp_min+"&deg;F</h4>"+
