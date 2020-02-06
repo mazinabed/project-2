@@ -28,7 +28,7 @@ function getForecast(){
                 for(var i = 0; i < response.list.length; i++){
                     table += "<tr>";
                     
-                    table += "<td><img src='http://openweathermap.org/img/w/"+response.list[i].weather[0].icon+".png'></td>";
+                    table += "<td><img src='https://openweathermap.org/img/w/"+response.list[i].weather[0].icon+".png'></td>";
                     table += "<td>" + response.list[i].weather[0].main + "</td>";
                     table += "<td>" + response.list[i].weather[0].description + "</td>";
                     table += "<td>" + response.list[i].temp.min + "&deg;F</td>";
