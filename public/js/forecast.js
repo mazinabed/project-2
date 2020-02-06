@@ -16,7 +16,7 @@ function getForecast(){
     if(city != '' && days != ''){
         
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + "&units=Imperial" + "&cnt=" + days + "&APPID=c10bb3bd22f90d636baa008b1529ee25",
+            url: 'https://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + "&units=Imperial" + "&cnt=" + days + "&APPID=c10bb3bd22f90d636baa008b1529ee25",
             type: "GET",
             dataType: "json",
             success: function(response){
